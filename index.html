@@ -1009,6 +1009,14 @@
     </footer>
 
     <script>
+        // REMOVER target="_blank" de TODOS os links ao carregar a página
+        document.addEventListener('DOMContentLoaded', function() {
+            var links = document.querySelectorAll('a');
+            links.forEach(function(link) {
+                link.removeAttribute('target');
+            });
+        });
+
         // Carousel
         let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-slide');
