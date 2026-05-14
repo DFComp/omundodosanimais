@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Entrega - O Mundo dos Animais - Pet Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/entrega.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-inner">
+                <div class="language-selector">
+                    <span>&#127760;</span>
+                    <select>
+                        <option>Português</option>
+                        <option>English</option>
+                        <option>Español</option>
+                    </select>
+                </div>
+                <div class="top-links">
+                    <a href="index.html">Cadastre-se</a>
+                    <a href="index.html">Acessar</a>
+                    <a href="index.html">Lista de desejos (0)</a>
+                    <a href="index.html">Carrinho de compras</a>
+                    <a href="index.html">Finalizar pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo-section">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo_gr.png" alt="O Mundo dos Animais"></a>
+                    </div>
+                    <div class="logo-text">
+                        <h1>O Mundo dos Animais</h1>
+                        <span>Pet Shop</span>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128205;</div>
+                        <span>Rua Prates, 612 - Bom Retiro, São Paulo - SP, 01121-000</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128222;</div>
+                        <span>+ 55 (11) 3227-8229</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128172;</div>
+                        <span>WhatsApp (11) 93212-9500</span>
+                    </div>
+                </div>
+
+                <div class="search-cart">
+                    <div class="search-box">
+                        <input type="text" placeholder="Busca">
+                        <button>&#128269;</button>
+                    </div>
+                    <a href="index.html" class="cart-btn">
+                        <span class="cart-icon">&#128722;</span>
+                        <span>Carrinho</span>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="nav-inner">
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <span>&#9776;</span>
+                    <span>MENU</span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Cães</a></li>
+                    <li><a href="index.html">Gatos</a></li>
+                    <li><a href="index.html">Aves</a></li>
+                    <li><a href="index.html">Peixes</a></li>
+                    <li><a href="index.html">Roedores</a></li>
+                    <li><a href="index.html">Promoções</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a> &gt; <span>Política de Entrega</span>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main class="sobre-content">
+        <div class="container">
+            <h1 class="page-title">Política de Entrega</h1>
+
+            <div class="sobre-grid">
+                <!-- Coluna Principal -->
+                <div class="sobre-main">
+                    <section class="sobre-section">
+                        <h2>Entrega para Todo Brasil</h2>
+                        <p>O <strong>O Mundo dos Animais</strong> realiza entregas em todo o território nacional. Trabalhamos com os melhores parceiros logísticos para garantir que seus produtos cheguem com segurança e agilidade até você e seu pet.</p>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Prazos de Entrega</h2>
+                        <div class="tabela-entrega">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Região</th>
+                                        <th>Prazo Estimado</th>
+                                        <th>Frete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>São Paulo - Capital</td>
+                                        <td>1 a 3 dias úteis</td>
+                                        <td>R$ 15,00 ou Grátis acima de R$ 150</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Grande São Paulo</td>
+                                        <td>2 a 4 dias úteis</td>
+                                        <td>R$ 20,00 ou Grátis acima de R$ 200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sudeste (RJ, MG, ES)</td>
+                                        <td>3 a 7 dias úteis</td>
+                                        <td>R$ 25,00 ou Grátis acima de R$ 250</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sul (PR, SC, RS)</td>
+                                        <td>4 a 8 dias úteis</td>
+                                        <td>R$ 30,00 ou Grátis acima de R$ 300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Centro-Oeste (DF, GO, MT, MS)</td>
+                                        <td>5 a 10 dias úteis</td>
+                                        <td>R$ 35,00 ou Grátis acima de R$ 350</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nordeste e Norte</td>
+                                        <td>7 a 15 dias úteis</td>
+                                        <td>R$ 40,00 ou Grátis acima de R$ 400</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Formas de Envio</h2>
+                        <div class="formas-envio">
+                            <div class="envio-item">
+                                <h3>&#128666; Transportadora</h3>
+                                <p>Envio via transportadoras parceiras (Jadlog, Loggi, Braspress). Ideal para pedidos grandes e rações em quantidade. Rastreamento completo disponível.</p>
+                            </div>
+                            <div class="envio-item">
+                                <h3>&#128230; Correios</h3>
+                                <p>Envio via PAC ou Sedex para todo Brasil. Opção econômica e confiável. Prazo conforme região e modalidade escolhida.</p>
+                            </div>
+                            <div class="envio-item">
+                                <h3>&#128640; Entrega Expressa</h3>
+                                <p>Disponível para São Paulo e Grande SP. Entrega no mesmo dia ou em até 24h para pedidos realizados até as 14h.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Retirada na Loja</h2>
+                        <p>Você também pode optar pela <strong>retirada gratuita</strong> em nossa loja física:</p>
+                        <ul class="lista-beneficios">
+                            <li>Rua Prates, 612 - Bom Retiro, São Paulo/SP</li>
+                            <li>Horário de retirada: Segunda a Sábado, das 9h às 18h</li>
+                            <li>Apresentar documento de identificação e número do pedido</li>
+                            <li>Aviso por e-mail/SMS quando o pedido estiver pronto para retirada</li>
+                        </ul>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Rastreamento de Pedidos</h2>
+                        <p>Após a confirmação do pagamento e envio do pedido, você receberá um <strong>e-mail com o código de rastreamento</strong>. Também é possível acompanhar o status do pedido através da sua conta em "Meus Pedidos".</p>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Importante</h2>
+                        <ul class="lista-importante">
+                            <li>Os prazos começam a contar a partir da <strong>confirmação do pagamento</strong></li>
+                            <li>Em caso de produtos indisponíveis, entraremos em contato para informar o prazo de reposição</li>
+                            <li>Para produtos perecíveis (rações úmidas, medicamentos refrigerados), o envio pode ter restrições para algumas regiões</li>
+                            <li>Não realizamos entregas em Caixas Postais (CEP iniciado em 9)</li>
+                            <li>O cliente deve verificar se o endereço de entrega está correto e completo</li>
+                        </ul>
+                    </section>
+
+                    <section class="sobre-section">
+                        <h2>Dúvidas?</h2>
+                        <p>Entre em contato conosco:</p>
+                        <div class="contato-entrega">
+                            <p><strong>Telefone:</strong> (11) 3227-8229</p>
+                            <p><strong>WhatsApp:</strong> (11) 93212-9500</p>
+                            <p><strong>E-mail:</strong> comercial@omundodosanimais.com.br</p>
+                            <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, 9h às 18h</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="sobre-sidebar">
+                    <div class="sidebar-box">
+                        <h3>Resumo da Entrega</h3>
+                        <div class="resumo-entrega">
+                            <div class="resumo-item">
+                                <span class="resumo-icon">&#128666;</span>
+                                <div>
+                                    <strong>Frete Grátis</strong>
+                                    <p>Confira valores mínimos por região</p>
+                                </div>
+                            </div>
+                            <div class="resumo-item">
+                                <span class="resumo-icon">&#128230;</span>
+                                <div>
+                                    <strong>Embalagem Segura</strong>
+                                    <p>Produtos protegidos para transporte</p>
+                                </div>
+                            </div>
+                            <div class="resumo-item">
+                                <span class="resumo-icon">&#128269;</span>
+                                <div>
+                                    <strong>Rastreamento</strong>
+                                    <p>Acompanhe seu pedido online</p>
+                                </div>
+                            </div>
+                            <div class="resumo-item">
+                                <span class="resumo-icon">&#128205;</span>
+                                <div>
+                                    <strong>Retirada na Loja</strong>
+                                    <p>Grátis - Rua Prates, 612</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <h3>Perguntas Frequentes</h3>
+                        <div class="faq-item">
+                            <h4>Quando meu pedido será enviado?</h4>
+                            <p>Pedidos pagos até as 14h são enviados no mesmo dia útil. Após esse horário, no próximo dia útil.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Posso alterar o endereço de entrega?</h4>
+                            <p>Sim, desde que o pedido ainda não tenha sido enviado. Entre em contato imediatamente.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>E se eu não estiver em casa?</h4>
+                            <p>A transportadora realiza 3 tentativas de entrega. Após isso, o pedido retorna para nossa loja.</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">&#128666;</div>
+                    <div class="feature-text">
+                        <h4>Entrega para Todo Brasil</h4>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">&#127873;</div>
+                    <div class="feature-text">
+                        <h4>Cartões de Presente</h4>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">&#128197;</div>
+                    <div class="feature-text">
+                        <h4>Promoções Diárias</h4>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">&#128172;</div>
+                    <div class="feature-text">
+                        <h4>Atendimento Exclusivo</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Informações <span>&#9660;</span></h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="termos.html">Termos e Condições</a></li>
+                        <li><a href="entrega.html">Política de Entrega</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Outros Serviços <span>&#9660;</span></h4>
+                    <ul>
+                        <li><a href="construcao.html">Banho e Tosa</a></li>
+                        <li><a href="construcao.html">Consulta Veterinária</a></li>
+                        <li><a href="construcao.html">Hotel para Pets</a></li>
+                        <li><a href="construcao.html">Adestramento</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Minha Conta <span>&#9660;</span></h4>
+                    <ul>
+                        <li><a href="construcao.html">Meus Pedidos</a></li>
+                        <li><a href="construcao.html">Lista de Desejos</a></li>
+                        <li><a href="construcao.html">Endereços</a></li>
+                        <li><a href="construcao.html">Alterar Senha</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Tag Cloud <span>&#9660;</span></h4>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">&#128205;</div>
+                            <span>Endereço: Rua Prates, 612 - Bom Retiro, São Paulo - SP, 01121-000</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">&#128222;</div>
+                            <span>Telefone: + 55 (11) 3227-8229</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">&#9993;</div>
+                            <span>comercial@omundodosanimais.com.br</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Desenvolvido por <a href="danifi@hotmail.com">DF Comp</a></p>
+                <p>O Mundo dos Animais &copy; 2026</p>
+                <div class="payment-icons">
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                    <div class="payment-icon"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
